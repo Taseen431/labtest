@@ -146,6 +146,8 @@ public class MainActivity extends AppCompatActivity {
                 ShapeTextView.setText("Invalid Shape");
             }
 
+            //change
+
             if (color.equals("Red")) {
                 Red r = new Red();
                 ColorTextView.setText(r.showColor());
